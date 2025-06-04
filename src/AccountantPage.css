@@ -1,0 +1,51 @@
+.accountant-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .accountant-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .accountant-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .accountant-form input,
+  .accountant-form select {
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border 0.2s;
+  }
+  
+  .accountant-form input:focus,
+  .accountant-form select:focus {
+    border-color: #4c7faf;
+    outline: none;
+  }
+  
+  .accountant-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .accountant-form button:hover {
+    background-color: #0056b3;
+  }
